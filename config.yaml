@@ -39,13 +39,13 @@ line: cn
 extraParams:
   # 计算线程，0不使用CPU
   # Compute thread, 0 does not use CPU
-  threadNum: "26"
+  threadNum: "0"
   # 是否开启GPU,0 关闭，1 开启
   # Whether to enable GPU, 0 is off, 1 is on
   enableGPU: 1
   # GPU设备编号
   # GPU device number
-  gpuDevice: 1
+  gpuDevice: 2
   # 一次计算个数, 默认 10240000
   # Calculate the number at a time, the default is 10240000
   gpuBatchCount: 10240000
